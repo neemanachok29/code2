@@ -1,0 +1,119 @@
+.animal {
+  margin: 40px;
+  text-align: center;
+}
+
+
+
+.vote-btn {
+  margin-top: 10px;
+  font-family: 'Inter', Arial, sans-serif;
+  padding: 10px 20px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 3%;
+}
+
+.vote-btn:hover {
+  background-color: #807d7d;
+}
+
+.vote-count {
+  margin-top: 19px;
+  font-weight:300
+}
+//
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+}
+
+#animal-namelist li {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #ddd;
+  color: #333;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#animal-namelist li: hover {
+  background-color: #bbb;
+}
+
+#animal-details {
+  background-color:white;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+#animal-details h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#animal-details img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+#animal-details p {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#animal-details button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#animal-details button:hover {
+  background-color: #45a049;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  #animal-details {
+    padding: 10px;
+  }
+
+  #animal-details h2 {
+    font-size: 20px;
+  }
+
+  #animal-details p {
+    font-size: 14px;
+  }
+
+  #animal-details button {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+}
